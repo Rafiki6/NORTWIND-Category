@@ -5,6 +5,6 @@ fetch("http://localhost:8081/api/categories")
 .then(data => {
     data.forEach(item => 
         categoryList.innerHTML +=
-        `<option value=${item.categoryId}>${item.name}</option>
+        `<option value=${item.categoryId}>${item.name} item.name} - ${item.description}</option>
         `);
 })
