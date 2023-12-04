@@ -1,6 +1,7 @@
-body{
+body {
     background-color: bisque;
 }
+
 td {
     text-align: right;
     font-weight: bold;
@@ -10,8 +11,14 @@ th {
     text-align: left;
     font-weight: normal;
     text-transform: capitalize;
+    font-weight: bold;
 }
 
 .hidden {
     display: none;
+}
+
+img {
+    width: 55vh;
+    height: 60vh;
 }

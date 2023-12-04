@@ -12,5 +12,21 @@ document.addEventListener("DOMContentLoaded",e =>{
             details.innerHTML += `<tr><th>units In Stock:   </th><td>${item.unitsInStock}</td></tr>`
             details.innerHTML += `<tr><th>supplier:</th>    <td>${item.supplier}</td></tr>`
             details.innerHTML += `<tr><th>discontinued:</th><td>${item.discontinued}</td></tr>`
+
+           const quantity = document.getElementById("quantity")
+           document.getElementById("result")
+
+            quantity.addEventListener("input", () =>{
+                const enterQuanity =  parseInt(quantity.value) || 0;
+                const totalPrice = Number(enterQuanity * item.unitPrice).toFixed(2);  
+
+              
+                result.innerHTML =`Total Price $${totalPrice}`
+            })
     })
 })
+
+// 
+
+// document.getElementById("result");
+// result.innerHTML = N
