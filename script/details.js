@@ -13,6 +13,8 @@ document.addEventListener("DOMContentLoaded",e =>{
             details.innerHTML += `<tr><th>supplier:</th>    <td>${item.supplier}</td></tr>`
             details.innerHTML += `<tr><th>discontinued:</th><td>${item.discontinued}</td></tr>`
 
+            // CREATE AN INPUT FOR QUANTITY
+
            const quantity = document.getElementById("quantity")
            document.getElementById("result")
 

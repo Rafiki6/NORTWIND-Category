@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", e => {
         </a>
         </td></tr>`
 
-               // CREATE AN INPUT FOR QUANTITY
+               
           
 
             })
